@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 
-function MovieCardsList(props) {
+const MovieCardsList = (props) => {
 
   /*
   Destructuring via ES6. We're getting the profiles, users, and movies properties
